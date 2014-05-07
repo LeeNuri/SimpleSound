@@ -16,10 +16,10 @@ html, body {
 	width: 105px;
 	height: 105px;
 
-	top: 70%;
+	top: 30%;
 	left: 50%;
 
-	top: calc(70% - 52px);
+	top: calc(30% - 52px);
 	left: calc(50% - 52px);
 }
 
