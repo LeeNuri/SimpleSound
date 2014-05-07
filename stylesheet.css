@@ -24,9 +24,9 @@ html, body {
 }
 
 .state1 {
-	background-image: url("images/play.jpg");
+	background-image: url("images/play.png");
 }
 
 .state2 {
-	background-image: url("images/play-click.jpg");
+	background-image: url("images/play-click.png");
 }
