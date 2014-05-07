@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#bird").click(function() {
+	$("#play").click(function() {
 		$(this).toggleClass("state1");
 		$(this).toggleClass("state2");
 
