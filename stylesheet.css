@@ -6,13 +6,7 @@ html {
 }
 
 
-#stage {
-	width: 100%;
-	height: 100%;
 
-	background-image: url("images/sn.gif");
-	background-size: cover;
-}
 #play {
 	position: absolute;
 	width: 105px;
