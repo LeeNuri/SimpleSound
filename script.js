@@ -4,6 +4,7 @@ $(document).ready(function() {
 		$(this).toggleClass("state2");
 
 		$("#playSound")[0].play();
+		$("#playSound")[0].pause();
 	});
 
 });
