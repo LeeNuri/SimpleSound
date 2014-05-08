@@ -1,10 +1,14 @@
 $(document).ready(function() {
-	$("#play").click(function() {
+	if $("#play").click(function() {
 		$(this).toggleClass("state1");
-		$(this).toggleClass("state2");
+
 
 		$("#playSound")[0].play();
-		$("#playSound")[0].pause();
 	});
 
+	else $("#play").click(function() {
+		$(this).toggleClass("state2");
+
+		$("#playSound")[0].pause();
+	});
 });
