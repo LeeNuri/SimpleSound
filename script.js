@@ -4,7 +4,6 @@ $(document).ready(function() {
    	$(window).resize(function() {
         $('#play').css('width', $(window).width() - 1 );
         $('#play').css('height', $(window).height() - 1 );
-   });
 	    
 	$("#play").click(function() {
 		$(this).toggleClass("state1");
