@@ -4,8 +4,8 @@ $(document).ready(function() {
 		$(this).toggleClass("state2");
 
 
-		$("#playSound")[0].load();
-		$("#playSound")[0].play();
+		$("#playSound").trigger('play');
+		$("#playSound").trigger('pause');
 		
 	});
 
