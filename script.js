@@ -1,7 +1,4 @@
 $(document).ready(function() {
-	$(window).resize(function(){
-		$('#play').css(width:80%, height: auto);
-	});
 	$("#play").click(function() {
 		$(this).toggleClass("state1");
 
