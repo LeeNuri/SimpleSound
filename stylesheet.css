@@ -9,6 +9,8 @@ html {
 
 #play {
 	position: absolute;
+	height: 60px;
+	width: 60px;
 	resize: both;
 	
 	top: 30%;
