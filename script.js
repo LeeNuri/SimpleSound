@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	$('.test').css('width', $(window).width() - 1 );
-   	$('.test').css('height', $(window).height() - 1 );
+	$('#play').css('width', $(window).width() - 1 );
+   	$('#play').css('height', $(window).height() - 1 );
    	$(window).resize(function() {
-        $('.test').css('width', $(window).width() - 1 );
-        $('.test').css('height', $(window).height() - 1 );
+        $('#play').css('width', $(window).width() - 1 );
+        $('#play').css('height', $(window).height() - 1 );
    });
 	    
 	$("#play").click(function() {
