@@ -11,6 +11,7 @@ html {
 	position: absolute;
 	height: 30%;
 	width: 30%;
+	-webkit-background-size: cover;
 	
 	top: 30%;
 	left: 50%;
