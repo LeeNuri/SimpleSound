@@ -9,15 +9,14 @@ html {
 
 #play {
 	position: absolute;
-	height: 30%;
-	width: 30%;
+	height: 10%;
+	width: 10%;
 	-webkit-background-size: cover;
 	
 	top: 30%;
-	left: 50%;
+	left: 45%;
 
-	top: calc(30% - 52px);
-	left: calc(50% - 52px);
+
 }
 
 .state1 {
